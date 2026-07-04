@@ -1,0 +1,31 @@
+{
+  "data": [
+    {
+      "username": "anil",
+      "name": "kumar",
+      "email": "abc@gmail.com",
+      "phone": 12345,
+      "address": {
+        "city": "bangalore",
+        "street": "btm layout 1",
+        "zipcode": 560029,
+        "company": "excelrr"
+      },
+      "id": "1"
+    },
+    {
+      "username": "skjfksjf",
+      "name": "ksdfkdsjkf",
+      "email": "kdfjksjfk",
+      "phone": "837384783",
+      "address": {
+        "city": "kjfksjkfs",
+        "zipcode": "7837483",
+        "company": "slkjfksjf",
+        "street": "kjfjfksjfkjksj"
+      },
+      "id": "jMBg5CgmhCk"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

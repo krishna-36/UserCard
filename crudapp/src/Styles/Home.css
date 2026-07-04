@@ -1,0 +1,41 @@
+.icons {
+      display: flex;
+      flex-direction: row;
+      gap: 100px;
+      padding-top: 20px;
+      width: inherit;
+      /* border: 1px solid; */
+      align-items: center;
+      justify-content: center;
+}
+
+.wrapper {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-evenly;
+      padding: 30px;
+
+}
+
+.icon-body {
+      display: flex;
+      align-items: center;
+}
+
+span {
+      padding-bottom : 20px;
+      /* border: 1px solid;  */
+      height: 5px; 
+           
+}
+
+span:hover {
+      cursor: pointer;
+}
+
+#add-user {
+      margin-top: 50px;
+      margin-left: 45%;
+}

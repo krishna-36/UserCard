@@ -15,7 +15,7 @@ const Home = () => {
 
   // fetch data
   let fetchData = async () => {
-    let res = await axios.get("http://localhost:8080/data");
+    let res = await axios.get(`${import.meta.env.VITE_API_URL}`);
     console.log(res);
     let { data } = res;
     setState(data);
@@ -29,7 +29,7 @@ const Home = () => {
     console.log("delete");
     if(window.confirm("Confirm Delete"))    
     {
-      axios.delete(`http://localhost:8080/data/${id}`)
+      axios.delete(`${import.meta.env.VITE_API_URL}/${id}`)
       .then(
         navigation.reload()
       )

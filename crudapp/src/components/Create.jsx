@@ -32,7 +32,7 @@ const Create = () => {
       }
     }
     console.log(payload);
-    axios.post("http://localhost:8080/data", payload)
+    axios.post(`${import.meta.env.VITE_API_URL}`, payload)
     .then(() => {
       console.log("data submitted successfully");
       navigate("/")

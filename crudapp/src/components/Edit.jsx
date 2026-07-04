@@ -23,7 +23,7 @@ const Edit = () => {
   let [company, setCompany] = useState("");
 
   useEffect(() => {
-    axios.get(`http://localhost:8080/data/${userid}`)
+    axios.get(`${import.meta.env.VITE_API_URL}/${userid}`)
     .then( (res) => {
       console.log(res);
       setUsername(res.data.username )
@@ -54,7 +54,7 @@ const Edit = () => {
       }
     } 
     console.log(payroll);
-    axios.put(`http://localhost:8080/data/${userid}`, payroll)
+    axios.put(`${import.meta.env.VITE_API_URL}/${userid}`, payroll)
     .then( () => {
       console.log("Data updated successfully");
       navigate("/")      

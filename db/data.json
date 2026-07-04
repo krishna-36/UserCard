@@ -1,19 +1,6 @@
 {
   "data": [
     {
-      "username": "anil",
-      "name": "kumar",
-      "email": "abc@gmail.com",
-      "phone": 12345,
-      "address": {
-        "city": "bangalore",
-        "street": "btm layout 1",
-        "zipcode": 560029,
-        "company": "excelrr"
-      },
-      "id": "1"
-    },
-    {
       "username": "skjfksjf",
       "name": "ksdfkdsjkf",
       "email": "kdfjksjfk",

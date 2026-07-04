@@ -30,8 +30,9 @@ const Home = () => {
     if(window.confirm("Confirm Delete"))    
     {
       axios.delete(`${import.meta.env.VITE_API_URL}/${id}`)
-      .then(
-        navigation.reload()
+      .then(() => {
+        window.location.reload();
+      }
       )
       .catch(
         (error) => {
